@@ -14,24 +14,143 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(10, 205, 240) ;
 }
 
 .App-link {
   color: #61dafb;
 }
+.JSX-style {
+  position: absolute;
+  bottom: 1000;
+  left: 0;
+  color: darkblue; /* Màu xanh đậm */
+  padding: 0px; /* Khoảng cách từ viền */
+  font-size: 50px; /* Kích thước chữ lớn hơn */
+  font-weight: bold; /* Chữ đậm */
+}
+
+
+.text-black {
+  color: black;
+}
+
+.text-large {
+  font-size: 50px;
+}
+.text-blue {
+  color: blue;
+}
+.text-small-italic {
+  font-size: 12px; /* Kích thước chữ nhỏ */
+  font-style: italic; /* Chữ nghiêng */
+  margin-top: -10px; /* Đặt khoảng cách trên âm để nó nằm gần với đoạn trên */
+  color: #6c6c6c; /* Màu đen nhạt */
+}
+/*navbar stye*/
+
+.Navbar {
+  background-color: #333; /* Màu nền của navbar */
+  padding: 20px; /* Khoảng cách bên trong navbar */
+  overflow: hidden;
+  margin-top: 0px; /* Thay đổi giá trị này theo nhu cầu của bạn */
+}
+
+.Navbar ul {
+  list-style: none; /* Xóa dấu chấm của danh sách */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hiển thị danh sách theo hàng ngang */
+  justify-content: left; /* Căn giữa các mục trong navbar */
+}
+
+.Navbar li {
+  margin: 0 15px; /* Khoảng cách giữa các mục */
+}
+.nav-block {
+  display: inline-block; /* Hiển thị các liên kết như khối */
+  padding: 14px 20px; /* Khoảng cách bên trong khối */
+  text-align: center; /* Căn giữa chữ trong khối */
+  text-decoration: none; /* Xóa gạch chân của các liên kết */
+  color: white; /* Màu chữ mặc định */
+  border-radius: 0px; /* Bo góc khối */
+}
+.home-link {
+  background-color: #4CAF50; /* Màu nền cho Home */
+  border-radius: 0px; /* Bo góc khối */
+  padding: 10px 20px; /* Tăng kích thước bên trong khối */
+  display: inline-block; /* Đảm bảo khối có kích thước phù hợp */
+  font-size: 18px; /* Kích thước chữ lớn hơn nếu cần */
+}
+
+.login-link {
+  background-color: #000000; /* Màu nền cho Login */
+  border-radius: 0px; /* Bo góc khối */
+  padding: 10px 20px; /* Tăng kích thước bên trong khối */
+  display: inline-block; /* Đảm bảo khối có kích thước phù hợp */
+  font-size: 18px; /* Kích thước chữ lớn hơn nếu cần */
+}
+.search-link{
+  background-color: #333;
+  border-radius: 0px; /* Bo góc khối */
+  padding: 10px 20px; /* Tăng kích thước bên trong khối */
+  display: inline-block; /* Đảm bảo khối có kích thước phù hợp */
+  font-size: 18px; /* Kích thước chữ lớn hơn nếu cần */
+}
+.contact-link{
+  background-color: #333;
+  border-radius: 0px; /* Bo góc khối */
+  padding: 10px 20px; /* Tăng kích thước bên trong khối */
+  display: inline-block; /* Đảm bảo khối có kích thước phù hợp */
+  font-size: 18px; /* Kích thước chữ lớn hơn nếu cần */
+}
+
+
+.nav-block:hover {
+  color: #000; /* Màu chữ khi di chuột qua */
+  border-radius: 4px;
+}
+
+.Navbar a {
+  color: white; /* Màu chữ của các liên kết */
+  text-decoration: none; /* Xóa gạch chân của các liên kết */
+  font-size: 16px; /* Kích thước chữ */
+}
+
+.Navbar a:hover {
+  text-decoration: underline; /* Hiệu ứng khi di chuột qua */
+}
+/*course list*/
+.course-list {
+  list-style-type: disc;
+  padding-left: 1350px;
+  margin-top: 0px;
+  color: black; /* Màu chữ */
+  text-align: left ;/* Căn lề bên trái */
+}
+.course-title {
+  font-weight: bold; /* Làm cho văn bản in đậm */
+  padding-left: 1330px;
+  margin-top: 50px;
+  color: black; /* Màu chữ */
+  text-align: left; /* Căn lề bên trái */
+  margin-top: 0px; /* Khoảng cách giữa các mục */
+  margin-bottom: 0px;
+}
+
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
